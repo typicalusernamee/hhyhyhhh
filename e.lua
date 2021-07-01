@@ -524,18 +524,20 @@ function simple_()
 	loadstring(game:HttpGetAsync("https://pastebin.com/raw/pM9NH0z4"))()
 end
 
+function Check()
+    if _G.scriptran then
+        return
+    end
+end
+
 KrystalDance.MouseButton1Down:Connect(function()
-	if _G.scriptran then 
-		return 
-	end
+	Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/krystal.lua"))()
 end)
 
 GaleFighter.MouseButton1Down:Connect(function()
-	if _G.scriptran then 
-		return 
-	end
+Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/gale.lua"))()
 end)
@@ -553,9 +555,7 @@ Foxy.Text = "Foxy"
 Foxy.TextColor3 = Color3.fromRGB(255, 255, 255)
 Foxy.TextSize = 14.000
 Foxy.MouseButton1Down:Connect(function()
-	if _G.scriptran then 
-		return 
-	end
+Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/foxy.lua"))()
 end)
@@ -574,9 +574,7 @@ Killbot.TextColor3 = Color3.fromRGB(255, 255, 255)
 Killbot.TextSize = 14.000
 
 Killbot.MouseButton1Down:Connect(function()
-	if _G.scriptran then 
-		return 
-	end
+Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/killbot.lua"))()
 end)
@@ -598,9 +596,7 @@ JEVIL.Text = "JEVIL"
 JEVIL.TextColor3 = Color3.fromRGB(255, 255, 255)
 JEVIL.TextSize = 14.000
 JEVIL.MouseButton1Down:Connect(function()
-	if _G.scriptran then 
-		return 
-	end
+Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/JEVIL.lua"))()
 end)
@@ -618,9 +614,7 @@ Swat.Text = "Swat"
 Swat.TextColor3 = Color3.fromRGB(255, 255, 255)
 Swat.TextSize = 14.000
 Swat.MouseButton1Down:Connect(function()
-	if _G.scriptran then 
-		return 
-	end
+Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/swat.lua"))()
 end)
@@ -638,9 +632,7 @@ Nebula.Text = "Nebula"
 Nebula.TextColor3 = Color3.fromRGB(255, 255, 255)
 Nebula.TextSize = 14.000
 Nebula.MouseButton1Down:Connect(function()
-	if _G.scriptran then 
-		return 
-	end
+Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/nebula.lua"))()
 end)
@@ -658,9 +650,7 @@ neptunian.Text = "Neptunian V"
 neptunian.TextColor3 = Color3.fromRGB(255, 255, 255)
 neptunian.TextSize = 14.000
 neptunian.MouseButton1Down:Connect(function()
-	if _G.scriptran then 
-		return 
-	end
+Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/neptunian.lua"))()
 end)
@@ -678,9 +668,7 @@ Universal.Text = "Universal"
 Universal.TextColor3 = Color3.fromRGB(255, 255, 255)
 Universal.TextSize = 14.000
 Universal.MouseButton1Down:Connect(function()
-	if _G.scriptran then 
-		return 
-	end
+Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/universal.lua"))()
 end)
@@ -698,9 +686,7 @@ achromaticv2.Text = "Achromatic V2"
 achromaticv2.TextColor3 = Color3.fromRGB(255, 255, 255)
 achromaticv2.TextSize = 14.000
 achromaticv2.MouseButton1Down:Connect(function()
-	if _G.scriptran then 
-		return 
-	end
+Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/achromaticv2.lua"))()
 end)
@@ -718,9 +704,7 @@ railgunner.Text = "Railgunner"
 railgunner.TextColor3 = Color3.fromRGB(255, 255, 255)
 railgunner.TextSize = 14.000
 railgunner.MouseButton1Down:Connect(function()
-	if _G.scriptran then 
-		return 
-	end
+Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/railgunner.lua"))()
 end)
@@ -738,9 +722,7 @@ wao.Text = "WHAT ANOTHER ONE V1.5!?!"
 wao.TextColor3 = Color3.fromRGB(255, 255, 255)
 wao.TextSize = 14.000
 wao.MouseButton1Down:Connect(function()
-	if _G.scriptran then 
-		return 
-	end
+Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/wao.lua"))()
 end)
@@ -1185,9 +1167,7 @@ hotelroom.Text = "Beggin' (aka hotel room)"
 hotelroom.TextColor3 = Color3.fromRGB(255, 255, 255)
 hotelroom.TextSize = 14.000
 hotelroom.MouseButton1Down:Connect(function()
-	if _G.scriptran then 
-		return 
-	end
+Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://pastebin.com/raw/PvfknKfh"))()
 end)
