@@ -6,6 +6,8 @@ if _G.typicalcool ~= true then
        settings().Physics.AllowSleep = false
        game:GetService("Players").LocalPlayer.ReplicationFocus = workspace
        settings().Physics.ThrottleAdjustTime = 6 - math.huge
+						sethiddenproperty(game:FindFirstChildOfClass("Players").LocalPlayer,"SimulationRadius",1000)
+
     setsimulationradius(1000,1000)
     end)
     end
