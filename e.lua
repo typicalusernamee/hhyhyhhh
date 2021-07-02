@@ -137,7 +137,7 @@ ReanimButton.Text = "Reanimations"
 ReanimButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 ReanimButton.TextSize = 14.000
 
-Home.MouseButton1Down:Connect(function()
+Home.MouseButton1Click:Connect(function()
 	for i,v in next, Tabs:GetChildren() do
 		if v.Name == "Home" then
 			v.Visible = true
@@ -146,7 +146,7 @@ Home.MouseButton1Down:Connect(function()
 		end
 	end
 end)
-Tab.MouseButton1Down:Connect(function()
+Tab.MouseButton1Click:Connect(function()
 	for i,v in next, Tabs:GetChildren() do
 		if v.Name == "FreeScripts" then
 			v.Visible = true
@@ -156,7 +156,7 @@ Tab.MouseButton1Down:Connect(function()
 	end
 end)
 
-HatScriptButton.MouseButton1Down:Connect(function()
+HatScriptButton.MouseButton1Click:Connect(function()
 	for i,v in next, Tabs:GetChildren() do
 		if v.Name == "HatScripts" then
 			v.Visible = true
@@ -165,7 +165,7 @@ HatScriptButton.MouseButton1Down:Connect(function()
 		end
 	end
 end)
-ReanimButton.MouseButton1Down:Connect(function()
+ReanimButton.MouseButton1Click:Connect(function()
 	for i,v in next, Tabs:GetChildren() do
 		if v.Name == "Reanimations" then
 			v.Visible = true
@@ -307,7 +307,7 @@ button.Font = Enum.Font.Gotham
 button.Text = Name
 button.TextColor3 = Color3.fromRGB(255, 255, 255)
 button.TextSize = 14.000
-button.MouseButton1Down:Connect(function()
+button.MouseButton1Click:Connect(function()
 pcall(callback)
 end)
 end
@@ -542,13 +542,13 @@ function Check()
     end
 end
 
-KrystalDance.MouseButton1Down:Connect(function()
+KrystalDance.MouseButton1Click:Connect(function()
 	Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/krystal.lua"))()
 end)
 
-GaleFighter.MouseButton1Down:Connect(function()
+GaleFighter.MouseButton1Click:Connect(function()
 Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/gale.lua"))()
@@ -566,7 +566,7 @@ Foxy.Font = Enum.Font.Gotham
 Foxy.Text = "Foxy"
 Foxy.TextColor3 = Color3.fromRGB(255, 255, 255)
 Foxy.TextSize = 14.000
-Foxy.MouseButton1Down:Connect(function()
+Foxy.MouseButton1Click:Connect(function()
 Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/foxy.lua"))()
@@ -585,13 +585,13 @@ Killbot.Text = "Killbot"
 Killbot.TextColor3 = Color3.fromRGB(255, 255, 255)
 Killbot.TextSize = 14.000
 
-Killbot.MouseButton1Down:Connect(function()
+Killbot.MouseButton1Click:Connect(function()
 Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/killbot.lua"))()
 end)
 
-Simple.MouseButton1Down:Connect(function()
+Simple.MouseButton1Click:Connect(function()
 	simple_()
 end)
 
@@ -607,7 +607,7 @@ JEVIL.Font = Enum.Font.Gotham
 JEVIL.Text = "JEVIL"
 JEVIL.TextColor3 = Color3.fromRGB(255, 255, 255)
 JEVIL.TextSize = 14.000
-JEVIL.MouseButton1Down:Connect(function()
+JEVIL.MouseButton1Click:Connect(function()
 Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/JEVIL.lua"))()
@@ -625,7 +625,7 @@ Swat.Font = Enum.Font.Gotham
 Swat.Text = "Swat"
 Swat.TextColor3 = Color3.fromRGB(255, 255, 255)
 Swat.TextSize = 14.000
-Swat.MouseButton1Down:Connect(function()
+Swat.MouseButton1Click:Connect(function()
 Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/swat.lua"))()
@@ -643,7 +643,7 @@ Nebula.Font = Enum.Font.Gotham
 Nebula.Text = "Nebula"
 Nebula.TextColor3 = Color3.fromRGB(255, 255, 255)
 Nebula.TextSize = 14.000
-Nebula.MouseButton1Down:Connect(function()
+Nebula.MouseButton1Click:Connect(function()
 Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/nebula.lua"))()
@@ -661,7 +661,7 @@ neptunian.Font = Enum.Font.Gotham
 neptunian.Text = "Neptunian V"
 neptunian.TextColor3 = Color3.fromRGB(255, 255, 255)
 neptunian.TextSize = 14.000
-neptunian.MouseButton1Down:Connect(function()
+neptunian.MouseButton1Click:Connect(function()
 Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/neptunian.lua"))()
@@ -679,7 +679,7 @@ Universal.Font = Enum.Font.Gotham
 Universal.Text = "Universal"
 Universal.TextColor3 = Color3.fromRGB(255, 255, 255)
 Universal.TextSize = 14.000
-Universal.MouseButton1Down:Connect(function()
+Universal.MouseButton1Click:Connect(function()
 Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/universal.lua"))()
@@ -697,7 +697,7 @@ achromaticv2.Font = Enum.Font.Gotham
 achromaticv2.Text = "Achromatic V2"
 achromaticv2.TextColor3 = Color3.fromRGB(255, 255, 255)
 achromaticv2.TextSize = 14.000
-achromaticv2.MouseButton1Down:Connect(function()
+achromaticv2.MouseButton1Click:Connect(function()
 Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/achromaticv2.lua"))()
@@ -715,7 +715,7 @@ railgunner.Font = Enum.Font.Gotham
 railgunner.Text = "Railgunner"
 railgunner.TextColor3 = Color3.fromRGB(255, 255, 255)
 railgunner.TextSize = 14.000
-railgunner.MouseButton1Down:Connect(function()
+railgunner.MouseButton1Click:Connect(function()
 Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/railgunner.lua"))()
@@ -733,7 +733,7 @@ wao.Font = Enum.Font.Gotham
 wao.Text = "WHAT ANOTHER ONE V1.5!?!"
 wao.TextColor3 = Color3.fromRGB(255, 255, 255)
 wao.TextSize = 14.000
-wao.MouseButton1Down:Connect(function()
+wao.MouseButton1Click:Connect(function()
 Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicallyAUser/typicalhub/main/wao.lua"))()
@@ -751,7 +751,7 @@ bot.Font = Enum.Font.Gotham
 bot.Text = "Free Bot"
 bot.TextColor3 = Color3.fromRGB(255, 255, 255)
 bot.TextSize = 14.000
-bot.MouseButton1Down:Connect(function()
+bot.MouseButton1Click:Connect(function()
  local hatnameclone = {}
     for _,v in next, game:FindFirstChildOfClass("Players").LocalPlayer["Character"]:GetChildren() do
         if v:IsA("Accessory") then
@@ -901,7 +901,7 @@ pd.Font = Enum.Font.Gotham
 pd.Text = "Perma Death"
 pd.TextColor3 = Color3.fromRGB(255, 255, 255)
 pd.TextSize = 14.000
-pd.MouseButton1Down:Connect(function()
+pd.MouseButton1Click:Connect(function()
 HumanDied = false
     local torsopossss = game:FindFirstChildOfClass("Players").LocalPlayer["Character"].Torso.Position
    	
@@ -1178,7 +1178,7 @@ hotelroom.Font = Enum.Font.Gotham
 hotelroom.Text = "Beggin' (aka hotel room)"
 hotelroom.TextColor3 = Color3.fromRGB(255, 255, 255)
 hotelroom.TextSize = 14.000
-hotelroom.MouseButton1Down:Connect(function()
+hotelroom.MouseButton1Click:Connect(function()
 Check()
 	_G.scriptran=true
 	loadstring(game:HttpGet("https://pastebin.com/raw/PvfknKfh"))()
@@ -1196,7 +1196,7 @@ R15.Font = Enum.Font.Gotham
 R15.Text = "R15 Animation Player (press animate in the gui)"
 R15.TextColor3 = Color3.fromRGB(255, 255, 255)
 R15.TextSize = 14.000
-R15.MouseButton1Down:Connect(function()
+R15.MouseButton1Click:Connect(function()
 
 	loadstring(game:HttpGet("https://pastebin.com/raw/fjm7rVDn"))()
 end)
