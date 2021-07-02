@@ -510,12 +510,14 @@ local function EGTRRF_fake_script() -- memes.LocalScript
 		wait(1)
 		local Tween = game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(1), {TextTransparency = 0})	Tween:Play()
 	    wait(5)
-        script.Parent.Text = "rain's favorite word is p e n i s"
-		wait(5)
 		local Tween = game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(1), {TextTransparency = 1})	Tween:Play()
 		wait(1)
 		local Tween = game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(1), {TextTransparency = 0})	Tween:Play()
 		script.Parent.Text = "im an audio maker btw"
+		local Tween = game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(1), {TextTransparency = 1})	Tween:Play()
+		wait(1)
+		local Tween = game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(1), {TextTransparency = 0})	Tween:Play()
+		script.Parent.Text = "'i peed inside of my penis so i have an infection' - rain"
     end
 end
 coroutine.wrap(EGTRRF_fake_script)()
