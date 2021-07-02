@@ -453,7 +453,7 @@ local function EGTRRF_fake_script() -- memes.LocalScript
 	local script = Instance.new('LocalScript', memes)
 
 	while true do
-		wait(5)
+		
 		script.Parent.Text = "shiba hub users : it works tho!"
 		wait(5)
 		local Tween = game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(1), {TextTransparency = 1})	Tween:Play()
@@ -514,10 +514,20 @@ local function EGTRRF_fake_script() -- memes.LocalScript
 		wait(1)
 		local Tween = game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(1), {TextTransparency = 0})	Tween:Play()
 		script.Parent.Text = "im an audio maker btw"
+		wait(5)
 		local Tween = game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(1), {TextTransparency = 1})	Tween:Play()
 		wait(1)
 		local Tween = game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(1), {TextTransparency = 0})	Tween:Play()
 		script.Parent.Text = "'i peed inside of my penis' - rain"
+		wait(5)
+		local Tween = game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(1), {TextTransparency = 1})	Tween:Play()
+		wait(1)
+		local Tween = game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(1), {TextTransparency = 0})	Tween:Play()
+		script.Parent.Text = "void is pog, typicalhub is in it"
+		wait(5)
+		local Tween = game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(1), {TextTransparency = 1})	Tween:Play()
+		wait(1)
+		local Tween = game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(1), {TextTransparency = 0})	Tween:Play()
     end
 end
 coroutine.wrap(EGTRRF_fake_script)()
