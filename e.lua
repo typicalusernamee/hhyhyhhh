@@ -805,8 +805,8 @@ bot.MouseButton1Down:Connect(function()
 local BodyVelocity = Instance.new("BodyVelocity",Part0)
     game:GetService("RunService").Heartbeat:Connect(
         function()
-            Part0.Velocity = Vector3.new(0, -25.05, 0)
-            BodyVelocity.Velocity = Vector3.new(0, -25.05, 0)
+            Part0.Velocity = Vector3.new(1, -32.435, 1)
+            BodyVelocity.Velocity = Vector3.new(1, -32.435, 1)
             BodyVelocity.P = math.huge
         end
     )
@@ -934,7 +934,7 @@ HumanDied = false
     local CountSCIFIMOVIELOL = 1
     function SCIFIMOVIELOL(Part0,Part1,Position,Angle)
         game['Run Service'].Heartbeat:Connect(function()
-            Part0.Velocity = Vector3.new(0,-25.05,0)
+            Part0.Velocity = Vector3.new(1, -32.435, 1)
         end)
         local AlignPos = Instance.new('AlignPosition', Part1); AlignPos.Name = "AliP_"..CountSCIFIMOVIELOL
         AlignPos.ApplyAtCenterOfMass = true;
