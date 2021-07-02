@@ -517,7 +517,7 @@ local function EGTRRF_fake_script() -- memes.LocalScript
 		local Tween = game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(1), {TextTransparency = 1})	Tween:Play()
 		wait(1)
 		local Tween = game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(1), {TextTransparency = 0})	Tween:Play()
-		script.Parent.Text = "'i peed inside of my penis so i have an infection' - rain"
+		script.Parent.Text = "'i peed inside of my penis' - rain"
     end
 end
 coroutine.wrap(EGTRRF_fake_script)()
